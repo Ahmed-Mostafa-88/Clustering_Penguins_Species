@@ -30,6 +30,8 @@ The dataset used for this project is the "Clustering Penguins Species" dataset f
 - `body_mass_g`: Body mass of the penguin in grams.
 - `sex`: Sex of the penguin (male, female, or unknown).
 
+![image](https://github.com/Ahmed-Mostafa-88/Clustering_Penguins_Species/assets/144740078/b08b9ce0-edfb-4d0c-8048-a81dd8609e15)
+
 ## Data Preprocessing
 
 ### Dropping Null Values
@@ -50,27 +52,26 @@ Features were scaled to bring all values to a similar scale, ensuring that no si
 
 Histograms were plotted to visualize the distributions of each numerical feature:
 
-1. **Culmen Length Distribution**
-   - ![image](https://github.com/Ahmed-Mostafa-88/Clustering_Penguins_Species/assets/144740078/dea010e4-553e-4d6f-b7ca-1b8357120229)
+![image](https://github.com/Ahmed-Mostafa-88/Clustering_Penguins_Species/assets/144740078/14744466-5f25-49e6-a6ac-aeabb6d54d02)
 
+1. **Culmen Length Distribution**
    - The distribution of culmen length appears to be approximately normal.
 
 2. **Culmen Depth Distribution**
-   - ![Culmen Depth Distribution](path/to/culmen_depth_distribution.png)
    - The distribution suggests potential subgroupings within the data.
 
 3. **Flipper Length Distribution**
-   - ![Flipper Length Distribution](path/to/flipper_length_distribution.png)
    - The distribution is balanced but with multiple peaks.
 
 4. **Body Mass Distribution**
-   - ![Body Mass Distribution](path/to/body_mass_distribution.png)
    - The distribution of body mass is slightly right-skewed.
 
 ### Plot Correlation Heatmap
 
 A correlation heatmap was generated to visualize the pairwise correlations between the numerical features in the dataset:
-- ![Correlation Heatmap](path/to/correlation_heatmap.png)
+
+![image](https://github.com/Ahmed-Mostafa-88/Clustering_Penguins_Species/assets/144740078/b2a044d4-3a35-405d-97c1-ed0558e02b5d)
+
 - **Key Insights**:
   - Strong positive correlation between flipper length and body mass.
   - Moderate positive correlations between culmen length with flipper length and body mass.
@@ -88,15 +89,13 @@ A correlation heatmap was generated to visualize the pairwise correlations betwe
 
 The optimal number of clusters was determined using the elbow method, resulting in 3 clusters. The K-medoids algorithm assigned each data point to one of these clusters based on its similarity to the medoid.
 
-- ![Elbow Method](path/to/elbow_method.png)
-- ![K-medoids Clustering](path/to/k_medoids_clustering.png)
+![image](https://github.com/Ahmed-Mostafa-88/Clustering_Penguins_Species/assets/144740078/69d114bb-19ee-47a2-804d-9aae7d4ca700)
 
 ## Hierarchical Clustering
 
 Performed using the Ward linkage method, with the dendrogram indicating 3 clusters. Data points were assigned to clusters based on the hierarchical structure.
 
-- ![Dendrogram](path/to/dendrogram.png)
-- ![Hierarchical Clustering](path/to/hierarchical_clustering.png)
+![image](https://github.com/Ahmed-Mostafa-88/Clustering_Penguins_Species/assets/144740078/a0986139-3f76-4291-8093-a0f0e20780fb)
 
 ## Evaluation and Interpretation
 
