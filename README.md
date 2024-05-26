@@ -51,7 +51,8 @@ Features were scaled to bring all values to a similar scale, ensuring that no si
 Histograms were plotted to visualize the distributions of each numerical feature:
 
 1. **Culmen Length Distribution**
-   - ![Culmen Length Distribution](![image](https://github.com/Ahmed-Mostafa-88/Clustering_Penguins_Species/assets/144740078/c67fbb2c-f9c6-4c3e-84c3-5bfdaf5c9b80))
+   - ![image](https://github.com/Ahmed-Mostafa-88/Clustering_Penguins_Species/assets/144740078/dea010e4-553e-4d6f-b7ca-1b8357120229)
+
    - The distribution of culmen length appears to be approximately normal.
 
 2. **Culmen Depth Distribution**
